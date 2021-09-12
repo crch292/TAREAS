@@ -52,6 +52,7 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.cbfuncion)
         Me.GroupBox1.Controls.Add(Me.cbcine)
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(45, 36)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(336, 162)
@@ -64,32 +65,33 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(50, 26)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(86, 13)
+        Me.Label3.Size = New System.Drawing.Size(113, 17)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Cantidad boletos"
         '
         'tcantidad
         '
-        Me.tcantidad.Location = New System.Drawing.Point(153, 19)
+        Me.tcantidad.Location = New System.Drawing.Point(169, 22)
         Me.tcantidad.Name = "tcantidad"
-        Me.tcantidad.Size = New System.Drawing.Size(107, 20)
+        Me.tcantidad.Size = New System.Drawing.Size(107, 23)
         Me.tcantidad.TabIndex = 5
         '
         'vender
         '
+        Me.vender.BackColor = System.Drawing.SystemColors.WindowFrame
         Me.vender.Location = New System.Drawing.Point(208, 115)
         Me.vender.Name = "vender"
         Me.vender.Size = New System.Drawing.Size(105, 27)
         Me.vender.TabIndex = 4
         Me.vender.Text = "Vender"
-        Me.vender.UseVisualStyleBackColor = True
+        Me.vender.UseVisualStyleBackColor = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(49, 79)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(45, 13)
+        Me.Label2.Size = New System.Drawing.Size(57, 17)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Funcion"
         '
@@ -98,7 +100,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(49, 52)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(28, 13)
+        Me.Label1.Size = New System.Drawing.Size(35, 17)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Cine"
         '
@@ -106,114 +108,131 @@ Partial Class Form1
         '
         Me.cbfuncion.FormattingEnabled = True
         Me.cbfuncion.Items.AddRange(New Object() {"1", "2", "3", "4"})
-        Me.cbfuncion.Location = New System.Drawing.Point(153, 71)
+        Me.cbfuncion.Location = New System.Drawing.Point(169, 74)
         Me.cbfuncion.Name = "cbfuncion"
-        Me.cbfuncion.Size = New System.Drawing.Size(107, 21)
+        Me.cbfuncion.Size = New System.Drawing.Size(107, 25)
         Me.cbfuncion.TabIndex = 1
         '
         'cbcine
         '
         Me.cbcine.FormattingEnabled = True
         Me.cbcine.Items.AddRange(New Object() {"A", "B", "C"})
-        Me.cbcine.Location = New System.Drawing.Point(153, 44)
+        Me.cbcine.Location = New System.Drawing.Point(169, 47)
         Me.cbcine.Name = "cbcine"
-        Me.cbcine.Size = New System.Drawing.Size(107, 21)
+        Me.cbcine.Size = New System.Drawing.Size(107, 25)
         Me.cbcine.TabIndex = 0
         '
         'ListaPrecios
         '
         Me.ListaPrecios.Enabled = False
+        Me.ListaPrecios.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListaPrecios.FormattingEnabled = True
+        Me.ListaPrecios.ItemHeight = 17
         Me.ListaPrecios.Location = New System.Drawing.Point(45, 231)
         Me.ListaPrecios.Name = "ListaPrecios"
-        Me.ListaPrecios.Size = New System.Drawing.Size(62, 95)
+        Me.ListaPrecios.Size = New System.Drawing.Size(62, 89)
         Me.ListaPrecios.TabIndex = 1
         '
         'listadescuentos1
         '
         Me.listadescuentos1.Enabled = False
+        Me.listadescuentos1.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.listadescuentos1.FormattingEnabled = True
+        Me.listadescuentos1.ItemHeight = 17
         Me.listadescuentos1.Location = New System.Drawing.Point(113, 231)
         Me.listadescuentos1.Name = "listadescuentos1"
-        Me.listadescuentos1.Size = New System.Drawing.Size(62, 95)
+        Me.listadescuentos1.Size = New System.Drawing.Size(62, 89)
         Me.listadescuentos1.TabIndex = 4
         '
         'listadescuentos2
         '
         Me.listadescuentos2.Enabled = False
+        Me.listadescuentos2.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.listadescuentos2.FormattingEnabled = True
+        Me.listadescuentos2.ItemHeight = 17
         Me.listadescuentos2.Location = New System.Drawing.Point(181, 231)
         Me.listadescuentos2.Name = "listadescuentos2"
-        Me.listadescuentos2.Size = New System.Drawing.Size(62, 95)
+        Me.listadescuentos2.Size = New System.Drawing.Size(62, 89)
         Me.listadescuentos2.TabIndex = 5
         '
         'listatotales
         '
         Me.listatotales.Enabled = False
+        Me.listatotales.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.listatotales.FormattingEnabled = True
+        Me.listatotales.ItemHeight = 17
         Me.listatotales.Location = New System.Drawing.Point(249, 231)
         Me.listatotales.Name = "listatotales"
-        Me.listatotales.Size = New System.Drawing.Size(62, 95)
+        Me.listatotales.Size = New System.Drawing.Size(62, 89)
         Me.listatotales.TabIndex = 6
         '
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(42, 215)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(46, 13)
+        Me.Label4.Size = New System.Drawing.Size(60, 17)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "Subtotal"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(110, 215)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(68, 13)
+        Me.Label5.Size = New System.Drawing.Size(84, 17)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Descuento 1"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(178, 215)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(68, 13)
+        Me.Label6.Size = New System.Drawing.Size(84, 17)
         Me.Label6.TabIndex = 9
         Me.Label6.Text = "Descuento 2"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(246, 215)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(31, 13)
+        Me.Label7.Size = New System.Drawing.Size(40, 17)
         Me.Label7.TabIndex = 10
         Me.Label7.Text = "Total"
         '
         'blimpiar
         '
+        Me.blimpiar.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.blimpiar.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.blimpiar.Location = New System.Drawing.Point(396, 52)
         Me.blimpiar.Name = "blimpiar"
         Me.blimpiar.Size = New System.Drawing.Size(123, 23)
         Me.blimpiar.TabIndex = 11
         Me.blimpiar.Text = "Limpiar Listas"
-        Me.blimpiar.UseVisualStyleBackColor = True
+        Me.blimpiar.UseVisualStyleBackColor = False
         '
         'bsalir
         '
+        Me.bsalir.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.bsalir.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.bsalir.Location = New System.Drawing.Point(396, 88)
         Me.bsalir.Name = "bsalir"
         Me.bsalir.Size = New System.Drawing.Size(123, 23)
         Me.bsalir.TabIndex = 12
         Me.bsalir.Text = "Salir"
-        Me.bsalir.UseVisualStyleBackColor = True
+        Me.bsalir.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.bsalir)
         Me.Controls.Add(Me.blimpiar)
