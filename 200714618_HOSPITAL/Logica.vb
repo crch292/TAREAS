@@ -111,6 +111,8 @@
         contador1 = 0
         contador2 = 0
         contador3 = 0
+        Estadisticas.destadistica.Rows.Clear()
+        Estadisticas.destadistica.Rows.Add(contador1, contador2, contador3)
     End Sub
 
 

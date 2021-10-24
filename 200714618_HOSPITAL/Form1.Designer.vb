@@ -104,13 +104,13 @@ Partial Class Form1
         'MatrizToolStripMenuItem
         '
         Me.MatrizToolStripMenuItem.Name = "MatrizToolStripMenuItem"
-        Me.MatrizToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
+        Me.MatrizToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.MatrizToolStripMenuItem.Text = "Matriz"
         '
         'EstadisticasToolStripMenuItem1
         '
         Me.EstadisticasToolStripMenuItem1.Name = "EstadisticasToolStripMenuItem1"
-        Me.EstadisticasToolStripMenuItem1.Size = New System.Drawing.Size(134, 22)
+        Me.EstadisticasToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.EstadisticasToolStripMenuItem1.Text = "Estadisticas"
         '
         'CerrarToolStripMenuItem

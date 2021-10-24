@@ -49,4 +49,12 @@
             Me.Close()
         End If
     End Sub
+
+    Private Sub EstadisticasToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles EstadisticasToolStripMenuItem1.Click
+        limpiarestadistica()
+    End Sub
+
+    Private Sub MatrizToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MatrizToolStripMenuItem.Click
+        limpiarmatriz()
+    End Sub
 End Class
